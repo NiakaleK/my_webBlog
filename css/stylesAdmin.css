@@ -1,0 +1,111 @@
+/*RESET*/
+html, body, ul {
+	margin: 0;
+	padding: 0;
+}
+
+/*GENERAL*/
+body {
+	background-color: white;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+ul {
+	list-style-type: none;
+}
+
+/*HEADER*/
+header {
+	background-color: black;
+	padding: 10px 50px 20px 50px;
+	position: fixed;
+	width: 100%;
+}
+h1 {
+	color: #ffffff;
+	font-weight: normal;
+}
+h1 a, #menu, #menu a {
+	color: white;
+}
+#menu {
+	float: right;
+	margin-top: -45px;
+}
+#menu > li {
+	display: inline-block;
+	padding: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/*NAV*/
+nav {
+	background-color: #f2f2f2;
+	margin-top: 99px;
+	min-height: 40%;
+	padding: 20px;
+	padding-bottom: 100%;
+	position: fixed;
+	width: 17%;
+}
+nav a {
+	color: black;
+}
+nav li {
+	color: #00cccc;
+	font-weight: bolder;
+}
+.submenu a {
+	color: #595959;
+	font-weight: normal;
+}
+nav a:hover {
+	color: grey;
+	text-decoration: none;
+}
+.hr {
+	border: 1px solid white;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	width: 100%;
+}
+
+/*SECTION*/
+section {
+	padding-left: 22%;
+	padding-right: 10%;
+	padding-top: 10%;
+	padding-bottom: 5%;
+}
+section h2 {
+	color: #00cccc;
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 5%;
+	text-align: center;
+}
+section h3 {
+	font-size: 19px;
+}
+
+/*USERS*/
+/*search bar*/
+.form-inline .form-control {
+	width: 30%;
+}
+/*tableau-form pour la modification*/
+.userUpdate input {
+	width: 50px;
+}
+
+/*BILLETS*/
+.billet{
+	display: inline;
+	width: 600px;
+}
+.billet label{
+	width: 120px;
+}
